@@ -1,0 +1,19 @@
+ENTREGA 2 (SEMANA 5) - ESTADO DEL PROYECTO
+Eric Andrey Gonzalez Gutierrez
+Julian Vacca Sanchez
+
+IMPLEMENTADO
+- GenerateInfoFiles: createSalesMenFile, createProductsFile, createSalesManInfoFile
+  y main que genera productos.txt, vendedores.txt y archivos ventas_*.txt.
+- main: lee productos, vendedores y todos los archivos ventas_*.txt de la carpeta;
+  genera reporte_vendedores.csv (recaudo, mayor a menor) y reporte_productos.csv
+  (por cantidad vendida, descendente).
+- Extra (a): varios archivos por vendedor.
+- Extra (c): deteccion de formato erroneo, producto inexistente, cantidades o
+  precios negativos (se omite la linea y se muestra una advertencia).
+- Mensajes de finalizacion exitosa o de error; sin solicitar datos al usuario.
+
+FALTANTE
+- Archivo conclusion.txt (Entrega 3).
+- Extra (b): archivos serializados (no implementado).
+- Pruebas con volumenes grandes de vendedores y revision final de la documentacion Javadoc.
